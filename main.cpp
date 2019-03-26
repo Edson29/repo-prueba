@@ -22,7 +22,7 @@ using namespace std;
 int main(int argc, char** argv) {
     int residuo3, residuo5;
     for(int i = 1; i<=100; i++){
-        printf("%d ) ", i);
+        printf("%d ", i);
         residuo3 = i%3;
         residuo5 = i%5;
         if(!residuo3){
