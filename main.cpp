@@ -28,6 +28,9 @@ int main(int argc, char** argv) {
         if(!residuo3){
             printf("%s", "Fizz");
         }
+        if(!residuo5){
+            printf("%s", "Buzz");
+        }
         
         printf("\n");
     }
